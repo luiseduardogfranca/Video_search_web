@@ -1,0 +1,2 @@
+DEBUG = True 
+MAX_SHOW_VIDEOS = 1
