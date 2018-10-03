@@ -22,8 +22,8 @@ pipenv install --skip-lock
 Run 
 
 ```
-pipenv run python app/demo.py 
+pipenv run python demo.py 
 ```
 
-And done, the project will open on localhost: __127.0.0.1:5000__.
+And done, the project will open on localhost: _127.0.0.1:5000_.
 
