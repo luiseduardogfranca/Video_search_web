@@ -1,8 +1,8 @@
 from flask import Blueprint
 from flask import request
 from flask import render_template
-from .video_url.core import Page_video
-from . import settings
+from app.video_url.core import Page_video
+from app import settings
 
 bp = Blueprint("routes",__name__, "/")
 
