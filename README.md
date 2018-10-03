@@ -1,9 +1,29 @@
-# Video_search_web
+# Video Search Web 
 A tool to search videos in web
 
-# How to install 
-<pre>
-install pipenv: pip3(pip) install pipenv.
-on project folder: pipenv install --skip-lock and after of instalation,type,pipenv shell.
-in pipenv shell,type: python source/demo.py, who will open the project on localhost: 127.0.0.1:5000.
-</pre>
+## Installation
+
+### Prerequisites  
+* [Python](https://www.python.org/) >= 3 
+* [pip3](https://pip.pypa.io/en/stable/installing/) 
+* [Pipenv](https://pipenv.readthedocs.io/en/latest/) 
+
+Install pipenv with __pip3__:
+```
+pip3 install pipenv
+```
+
+On project folder run:
+
+```
+pipenv install --skip-lock 
+```
+
+Run 
+
+```
+pipenv run python app/demo.py 
+```
+
+And done, the project will open on localhost: __127.0.0.1:5000__.
+
